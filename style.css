@@ -1,0 +1,679 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+html, body {
+  width: 1440px;
+}
+
+.container {
+  padding: 5em;
+}
+
+header p {
+  font-family: 'Open Sans', sans-serif;
+  float: right ;
+  padding-right: 2em;
+  font-size: 1em;
+}
+
+.first {
+  padding-top: 10em;
+}
+
+.head {
+ font-family: 'Raleway', sans-serif;
+  font-size: 3.5em;
+  font-weight: 900;
+  margin-right: 2em;
+}
+
+.toe{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  margin: 1em 25em 1em 0em;
+}
+
+.first img{
+  height: 27em;
+  width: 28.6em;
+  float: right;
+  margin-bottom: 5em;
+}
+
+input {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0.7em 6em 0.6em 1.2em;
+  font-size: 1.1em;
+  margin-bottom: 0.2em;
+  border-width: 0.1em;
+}
+
+button {
+  font-family: 'Open Sans', sans-serif;
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  font-size: 1.3em;
+  padding: 0.4em 2.5em;
+  margin-left: 1em;
+  border-color: hsl(224, 93%, 58%);
+}
+
+.curve {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 20em;
+}
+
+.second{
+  margin-top: 0em;
+  padding: 5em;
+  background-color:hsl(240, 75%, 98%);
+}
+
+.second img{
+  height: 22em;
+  width: 22.9em;
+  float: right;
+  margin-top: 3em;
+  margin-bottom: 5em;
+  margin-left: 0.01em;
+}
+
+.go {
+  font-size: 1.3em;
+  text-decoration: underline;
+  text-underline-offset: 0.5em;
+  margin-bottom: 3em;
+}
+
+.go img {
+  max-width: 1.3em;
+  max-height: 1.3em;
+  position: relative;
+  right: 34.3em;
+  bottom: 3em;
+  color: green;
+}
+
+.deep {
+  background-color: white;
+  height: 15em;
+  width: 24em;
+  padding: 2em;
+}
+
+.sect {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+  font-size: 1.0em;
+  font-weight: 400
+}
+
+.section {
+  max-width: 1em;
+  max-height: 1em;
+  position: relative;
+  bottom: 3em;
+  right: 19em;
+  padding-bottom: 0.5;
+}
+
+.deep .pact {
+  max-width: 2.3em;
+  max-height: 2.3em;
+  border-radius: 50%;
+  position: relative;
+  bottom: 3em;
+  right: 17em;
+}
+
+.deck, strong{
+  margin-left: 2.7em;
+}
+
+.third {
+  background-color: hsl(238, 22%, 44%);
+  padding: 7.5em 0.2em;
+}
+
+.white {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 1.7em;
+  font-weight: 600
+  ;
+  position: relative;
+  left: 2.6em;
+}
+
+.third p {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 1em;
+  padding-left: 4.5em;
+  margin-right: 57em;
+  margin-top: 1em;
+} 
+
+.next {
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 5em;
+  float: right;
+  position: relative;
+  bottom: 6.5em
+}
+
+.next input {
+  font-family: 'Open Sans', sans-serif;
+  padding-right: 15em;
+  margin-bottom: 1em;
+}
+
+.next button {
+  font-family: 'Open Sans', sans-serif;
+  padding: 1em 2em ;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+footer {
+  font-family: 'Open Sans', sans-serif;
+  background-color: hsl(243, 87%, 12%);
+  padding: 8em;
+  height: 32em;
+  width: 90em;
+  overflow: hidden;
+}
+
+footer img {
+  margin: 0.5em 1em 0.5em 0em;
+}
+
+.end {
+color: white;
+filter: brightness(0) invert(1);
+}
+
+.one {
+  color: white;
+  position: relative;
+  bottom: 0.6em;
+  padding-right: 20em;
+}
+
+.two {
+  color: white;
+  position: relative;
+  left: 26em;
+  bottom: 4.7em;
+  line-height: 3em;
+}
+
+.three {
+  color: white;
+  position: relative;
+  left: 45em;
+  bottom: 16.7em;
+  line-height: 3em;
+}
+
+.stop {
+  color: white;
+  filter: brightness(0) invert(1);
+  position: relative;
+  left: 64em;
+  bottom: 25em;
+  border-radius: 50%;
+}
+
+.attribution {
+  position: relative;
+  bottom: 11em;
+  left: 53em;
+  color: white;
+}
+
+html, body {
+  width: 1440px;
+  min-height: 100vh;
+}
+
+/* RESPONSIVE DESIGN FOR MOBILE */
+@media only screen and (max-width: 375px) {
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+html, body {
+  width: 375px;
+}
+
+.container {
+  padding: 1.5em;
+}
+
+header img {
+  height: 1.7em;
+  width: 5.5em;
+}
+
+header p {
+  font-family: 'Open Sans', sans-serif;
+  float: right;
+  padding-top: 0.5em;
+  font-size: 0.7em;
+}
+
+.first {
+  padding-top: 6em;
+}
+
+.first img{
+  max-height: 17em;
+  max-width: 20em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+
+.head {
+ font-family: 'Raleway', sans-serif;
+  font-size: 1.3em;
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  margin-top: 13em;
+}
+
+.toe{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
+  margin: 1em 0em 1em 0em;
+  text-align: center;
+  padding: 0em 1em 0em;
+  line-height: 1.4em;
+}
+
+
+input {
+  font-family: 'Open Sans', sans-serif;
+  color: hsl(0, 0%, 75%);
+  padding: 0.8em 7em 0.7em 1em;
+  font-size: 1em;
+  margin-bottom: 1em;
+  border-width: 0.1em;
+  border-radius: 0.3em;
+}
+
+button {
+  font-family: 'Open Sans', sans-serif;
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  font-size: 1em;
+  padding: 1em 6.5em 0.8em 7.5em;
+  border-radius: 0.3em;
+  border-color: hsl(224, 93%, 58%);
+}
+
+.curve {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(images/bg-curve-mobile.svg);
+  margin-top: 10em;
+}
+
+.second{
+  margin-top: 0em;
+  padding: 1.5em;
+  background-color:hsl(240, 75%, 98%);
+}
+
+.second img{
+  max-height: 20em;
+  max-width: 25em;
+  text-align: center;
+  padding: 0em 0em 2em 2.5em;
+}
+
+.head span {
+  font-size: 0.88em;
+}
+
+.toe span  {
+  color: hsl(0, 0%, 75%);
+  display: flex;
+  text-align: left;
+}
+
+.go {
+  font-size: 0.8em;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 0.5em;
+  margin-bottom: 3em;
+  color: hsl(103, 28%, 58%);
+}
+
+.go img {
+  max-height: 3.2em;
+  max-width: 3.8em;
+  right: 9em;
+  bottom: 3em;
+  color: green;
+}
+
+.deep {
+  background-color: white;
+  height: 12.5em;
+  width: 20em;
+  padding: 2em;
+}
+
+.sect {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+  font-size: 0.72em;
+  font-weight: 400
+}
+
+.deep .section {
+  max-height: 2.7em;
+  max-width: 3.2em;
+  position: absolute;
+  top: 104em;
+  right: 19.2em;
+  padding-bottom: 0.5;
+}
+
+.deep .pact {
+  max-width: 4.5em;
+  max-height: 4em;
+  bottom: 3em;
+  right: 14em;
+  border-radius: 10%;
+}
+
+.deck, .son{
+  margin-left: 3em;
+  font-size: 0.8em;
+}
+
+.third {
+  background-color: hsl(238, 22%, 44%);
+  height: 22.5em;
+  max-width: 23.45em;
+  padding: 3em;
+}
+
+.third .white {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  position: relative;
+  left: 3em;
+  padding-bottom: 0em;
+}
+
+.third p {
+  padding: 0em;
+  margin: 0em;
+  text-align: center;
+  padding-top: 2.6em;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 0.9em;
+  line-height: 1.5em;
+} 
+
+.next{
+  font-family: 'Open Sans', sans-serif;
+  left: 3.9em;
+  top: 1.9em;
+}
+
+.next input{
+  padding: 0.5em;
+  padding-left: 1em;
+  padding-right: 2.8em;
+  margin-bottom: 0;
+}
+
+.next button {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0.6em;
+  padding-left: 3.39em;
+  padding-right: 4em;
+  margin-top: 0.5em;
+  font-size: 0.9em;
+  left: 15em;
+  border-color: hsl(239, 48%, 67%);
+}
+
+footer {
+  font-family: 'Open Sans', sans-serif;
+  background-color: hsl(243, 87%, 12%);
+  padding: 2em;
+  height: 38em;
+  width: 23.45em;
+  overflow: hidden;
+}
+
+footer img {
+  margin: 0.5em 0.8em 0.5em 0em;
+  height: 0.6em;
+  width: 0.7em;
+}
+
+.end {
+color: white;
+filter: brightness(0) invert(1);
+height: 1.7em;
+width: 5.5em;
+}
+
+.one {
+  color: white;
+  bottom: 0.6em;
+  font-size: 0.8em;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0%;
+}
+
+.two {
+  color: white;
+  line-height: 3em;
+  font-size: 0.8em;
+  position: inherit;
+  padding-top: 2em;
+}
+
+.three {
+  color: white;
+  line-height: 3em;
+  font-size: 0.8em;
+  position: inherit;
+  padding-top: 2em;
+  padding-bottom: 4em;
+}
+
+.stop {
+  color: rgba(7, 7, 7, 0);
+  filter: brightness(50) invert(0);
+  border-radius: 50%;
+  height: 1.2em;
+  width: 1.2em;
+  position: unset;
+}
+
+.mob {
+  padding-left: 8em;
+}
+
+.attribution {
+  font-size: 0.1em;
+  color: white;
+  padding-top: 24em;
+}
+
+html, body {
+  width: 375px;
+  margin: 0%;
+  padding: 0%;
+}
+}
+
